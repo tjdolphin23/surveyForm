@@ -5,17 +5,35 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Survey Form</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body>
 	<header>
-		<h1>Survey Form of Awesomeness</h1>
+		<h1>Survey Form</h1>
 	</header>
-	<p id="description">Tell us how awesome you are today!</p>
+	<p id="description">Fill out form below. Thank you.</p>
 	
 	<form action="" id="survey-form">
-		<input type="text" id="name" placeholder="Enter your name" required>Name: </input>
-		<input type="text" id="email" placeholder="Enter your email" required>Email: </input>
-		<input type="text" id="age" placeholder="Enter your age" required>Age: </input>
+		<!-- Name, email, age input section -->
+		<div>
+			<label id="name">* Name</label>
+			<input type="text" placeholder="Enter your name" required>
+		</div>
+
+		<div>
+			<label id="email">* Email</label>
+			<input type="email" placeholder="Enter your email" required>
+		</div>
+
+		<div>
+			<label id="number">* Age</label>
+			<input type="number" placeholder="Enter your age" min="1" max="120" required>
+		</div>
+
+		<!-- Dropdown option for current role -->
+		
+
+
 	</form>
 </body>
 </html>

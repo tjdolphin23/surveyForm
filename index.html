@@ -17,21 +17,31 @@
 		<!-- Name, email, age input section -->
 		<div>
 			<label id="name">* Name</label>
-			<input type="text" placeholder="Enter your name" required>
+			<input type="text" id="name-label" placeholder="Enter your name" required>
 		</div>
 
 		<div>
 			<label id="email">* Email</label>
-			<input type="email" placeholder="Enter your email" required>
+			<input type="email" id="email-label" placeholder="Enter your email" required>
 		</div>
 
 		<div>
 			<label id="number">* Age</label>
-			<input type="number" placeholder="Enter your age" min="1" max="120" required>
+			<input type="number" id="number-label" placeholder="Enter your age" min="1" max="120" required>
 		</div>
 
 		<!-- Dropdown option for current role -->
-		
+		<div id="dropdown">
+			<label>Which best describes your current employment status</label>
+				<select name="" id="">
+					<option value="" disabled selected>Select Best Option</option>
+					<option value="student">Student</option>
+					<option value="full-time">Employed Full-time</option>
+					<option value="part-time">Employed Part-time</option>
+					<option value="unemployed">Unemployed</option>
+					<option value="retired">Retired</option>
+				</select>
+		</div>
 
 
 	</form>

@@ -56,11 +56,16 @@ h1 {
 
 #checkbox {
 	display: inline-block;
-
 }
 
-
-
+button {
+	font-size: 18px;
+	margin-left: 50%;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	background: #dee1e5;
+}
 
 
 

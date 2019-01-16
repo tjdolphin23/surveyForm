@@ -26,6 +26,7 @@ h1 {
 	width: 45%;
 	text-align: right;
 	margin-right: 20px;
+	vertical-align: top;
 }
 
 #name-label {
@@ -41,7 +42,16 @@ h1 {
 #number-label {
 	width: 25%;
 	height: 25px;
+}
 
+#dropdown {
+	display: inline;
+	width: 15px;
+	height: 25px;
+}
+
+#radio {
+	display: inline-block;
 }
 
 

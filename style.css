@@ -13,9 +13,52 @@ h1 {
 	background-color: white;
 	margin-left: 15%;
 	margin-right: 15%;
+	font-size: 16px;
 }
 
-p {
+#description {
 	text-align: center;
 	padding-top: 20px;
 }
+
+.question {
+	display: inline-block;
+	width: 45%;
+	text-align: right;
+	margin-right: 20px;
+}
+
+#name-label {
+	width: 25%;
+	height: 25px;
+}
+
+#email-label {
+	width: 25%;
+	height: 25px;
+}
+
+#number-label {
+	width: 25%;
+	height: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

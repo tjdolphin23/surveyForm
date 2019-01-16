@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Survey Form</title>
-	<link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -17,20 +17,32 @@
 	
 		<!-- Name, email, age input section -->
 		<div>
-			<label id="name">* Name</label>
-			<input type="text" id="name-label" placeholder="Enter your name" required>
+			<span class="question">
+				<label id="name">*Name:</label>
+			</span>
+			<span>
+				<input type="text" id="name-label" placeholder="Enter your name" required>
+			</span>
 		</div>
-
+	<br>
 		<div>
-			<label id="email">* Email</label>
-			<input type="email" id="email-label" placeholder="Enter your email" required>
+			<span class="question">
+				<label id="email">*Email:</label>
+			</span>
+			<span>
+				<input type="email" id="email-label" placeholder="Enter your email" required>
+			</span>
 		</div>
-
+	<br>
 		<div>
-			<label id="number">* Age</label>
-			<input type="number" id="number-label" placeholder="Enter your age" min="1" max="120" required>
+			<span class="question">
+				<label id="number">*Age:</label>
+			</span>
+			<span>
+				<input type="number" id="number-label" placeholder="Enter your age" min="1" max="120" required>
+			</span>
 		</div>
-
+	<br>
 		<!-- Dropdown option for current role -->
 		<div id="dropdown">
 			<label>Which best describes your current employment status</label>
